@@ -1,4 +1,4 @@
-1. Les balises principales de structure
+1. ***Les balises principales de structure***
 	#### `<html>`
 	- La balise racine de tout document HTML
 	- Contient tout le contenu de la page
@@ -20,12 +20,12 @@
 	- `<head>` contient les métadonnées, le titre, les liens CSS/JS, les meta tags, favicon...
 	- `<body>` contient tout le contenu visible de la page (texte, images, boutons...)
 
-2. Les balises de structure de contenu (sémantiques)
+2. ***Les balises de structure de contenu (sémantiques)***
 	Ces balises servent à décrire le rôle de chaque section, pas juste à styliser
 
 	#### `<header>`
 	- Représente l'en-tête d'une page ou d'une section
-	- Contient souvent : logo, menu, titre principal
+	- Contient souvent: logo, menu, titre principal
 	- Exemple
 		```html
 		<header>
@@ -105,7 +105,7 @@
 			<p>&copy; 2025 Mon site</p>
 		</footer>
 		```
-3. Autres balises utiles pour structurer
+3. ***Autres balises utiles pour structurer***
 	- **`<div>`:** conteneur générique non sémantique, pour grouper des éléments
 	- **`<span>`:** conteneur en ligne, souvent pour appliquer du style à du text
 	- **`<h1>` à `<h6>`:** titres, hierarchie des sections
