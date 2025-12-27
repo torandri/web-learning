@@ -1,5 +1,5 @@
 1. Les balises principales de structure
-	#### <html></html>
+	#### `<html>`
 	- La balise racine de tout document HTML
 	- Contient tout le contenu de la page
 	- Exemple
@@ -16,14 +16,14 @@
 		</html>
 		```
 
-	#### <head> et <body>
-	- <head> contient les métadonnées, le titre, les liens CSS/JS, les meta tags, favicon...
-	- <body> contient tout le contenu visible de la page (texte, images, boutons...)
+	#### `<head>` et `<body>`
+	- `<head>` contient les métadonnées, le titre, les liens CSS/JS, les meta tags, favicon...
+	- `<body>` contient tout le contenu visible de la page (texte, images, boutons...)
 
 2. Les balises de structure de contenu (sémantiques)
 	Ces balises servent à décrire le rôle de chaque section, pas juste à styliser
 
-	#### <header></header>
+	#### `<header>`
 	- Représente l'en-tête d'une page ou d'une section
 	- Contient souvent : logo, menu, titre principal
 	- Exemple
@@ -34,7 +34,7 @@
 		</header>
 		```
 
-	#### <nav></nav>
+	#### `<nav>`
 	- Représente une zone de navigation
 	- Contient généralement des liens vers d'autres pages
 	- Exemple
@@ -47,7 +47,7 @@
 		</nav>
 		```
 
-	#### <main></main>
+	#### `<main>`
 	- Contenu principal unique de la page
 	- **Ne doit apparaître qu'une seule fois par page**
 	- Exemple
@@ -58,10 +58,10 @@
 		</main>
 		```
 
-	#### <section></section>
+	#### `<section>`
 	**Doit avoir un titre pour être accessibles**
 	- Représente une section thématique
-	- Peut contenir un titre <h2> ou <h3>
+	- Peut contenir un titre `<h2>` ou `<h3>`
 	- Exemple
 		```html
 		<section>
@@ -70,7 +70,7 @@
 		</section>
 		```
 
-	#### <article></article>
+	#### `<article>`
 	**Doit avoir un titre pour être accessibles**
 	- Représente un contenu indépendant: article, blog, post, commentaire
 	- Idéal pour les éléments réutilisables
@@ -82,7 +82,7 @@
 		</article>
 		```
 
-	#### <aside></aside>
+	#### `<aside>`
 	- Contenu annexe, complémentaire au contenu principal
 	- Comme: sidebar, publicités, citations
 	- Exemple
@@ -96,7 +96,7 @@
 		</aside>
 		```
 
-	#### <footer></footer>
+	#### `<footer>`
 	- Pied de page pour une page ou une section
 	- Contient: copyright, liens secondaires, infos contact
 	- Exemple
@@ -106,10 +106,10 @@
 		</footer>
 		```
 3. Autres balises utiles pour structurer
-	- **<div>:** conteneur générique non sémantique, pour grouper des éléments
-	- **<span>:** conteneur en ligne, souvent pour appliquer du style à du text
-	- **<h1> à <h6>:** titres, hierarchie des sections
-	- **<p>:** paragraphe
-	- **<ul>, <ol>:** listes
-	- **<li>:** élément de liste
-	- **<figure> et <figcaption>:** image avec légende
+	- **`<div>`:** conteneur générique non sémantique, pour grouper des éléments
+	- **`<span>`:** conteneur en ligne, souvent pour appliquer du style à du text
+	- **`<h1>` à `<h6>`:** titres, hierarchie des sections
+	- **`<p>`:** paragraphe
+	- **`<ul>`, `<ol>`:** listes
+	- **`<li>`:** élément de liste
+	- **`<figure>` et `<figcaption>`:** image avec légende
