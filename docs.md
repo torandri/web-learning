@@ -21,7 +21,7 @@
 	- `<body>` contient tout le contenu visible de la page (texte, images, boutons...)
 
 2. ***Les balises de structure de contenu (sémantiques)***
-	Ces balises servent à décrire le rôle de chaque section, pas juste à styliser
+	<p>Ces balises servent à décrire le rôle de chaque section, pas juste à styliser</p>
 
 	#### `<header>`
 	- Représente l'en-tête d'une page ou d'une section
