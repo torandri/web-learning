@@ -1,60 +1,62 @@
-1. ***Qu'est-ce qu'une règle CSS ?***
-	<br>Une règle CSS sert à dire au navigateur:
-	`sur quel élément HTML appliquer quel style`
-	<br>Une règle CSS est composée de 3 parties:
-	```css
-	sélecteur {
-		propriété: valeur;
-	}
-	```
 
-	> [!WARNING]
-	> ***Règles importantes:***<br>
-	> Toujours `:` entre propriété et valeur<br>
-	> Toujours `;` à la fin<br>
-	> Les accolades `{}` sont obligatoires
+## Qu'est-ce qu'une règle CSS ?
+Une règle CSS sert à dire au navigateur:
+`sur quel élément HTML appliquer quel style`<br>
+Une règle CSS est composée de 3 parties:
+```css
+sélecteur {
+	propriété: valeur;
+}
+```
 
-	Exemple simple
-	```css
-	p {
-		color: red;
-	}
-	```
-	<br>Tradiction humaine:
-	`Tous les <p> auront un texte rouge`
+> [!WARNING]
+> ***Règles importantes:***<br>
+> Toujours `:` entre propriété et valeur<br>
+> Toujours `;` à la fin<br>
+> Les accolades `{}` sont obligatoires
 
-2. ***Les 3 parties d'une règle CSS***
-	#### Le sélecteur
-	C'est tout ce qui est à cibles
-	> [!NOTE]
-	> Il y a tois (03) types de sélecteur:<br>
-	> **Sélecteur de balise**<br>
-	> **Sélecteur de classe**<br>
-	> **Sélecteur d'ID**<br>
-	> [!TIP]
-	> Ces sélecteurs peuvent être combinés mais certains sont prioritaire que d'autres,<br>
-	> **ID**<br>
-	> **Classe**<br>
-	> **Balise**
+Exemple simple
+```css
+p {
+	color: red;
+}
+```
+Tradiction humaine:
+`Tous les <p> auront un texte rouge`
 
-	- Exemple:<br>
-	`p` -> toutes les balises `<p>`<br>
-	`h1` -> tous les titres `<h1>`<br>
-	`.box` -> tous les éléments avec `class=box`<br>
-	`#menu` -> tous les éléments avec `id=menu`
+## Les 3 parties d'une règle CSS
+### Le sélecteur
+C'est tout ce qui est à cibles
+> [!NOTE]
+> Il y a trois (03) types de sélecteur:<br>
+> **Sélecteur de balise**<br>
+> **Sélecteur de classe**<br>
+> **Sélecteur d'ID**<br>
 
-	#### La propriété
-	C'est tout ce qui est à modifier
-	- Exemple:<br>
-	`color` -> couleur du texte<br>
-	`background-color` -> couleur de fond<br>
-	`font-size` -> taille du texte<br>
-	`margin` -> espace extérieur<br>
-	`padding` -> espace intérieur
+> [!TIP]
+> Ces sélecteurs peuvent être combinés mais certains sont prioritaire que d'autres,<br>
+> **ID**<br>
+> **Classe**<br>
+> **Balise**
 
-	#### La valeur
-	C'est par quoi la propriété sera modifier
-	- Exemple:<br>
-	`red`, `blue`, `#222`<br>
-	`16px`, `2em`, `100%`<br>
-	`center`, `bold`
+- Exemple:<br>
+`p` -> toutes les balises `<p>`<br>
+`h1` -> tous les titres `<h1>`<br>
+`.box` -> tous les éléments avec `class=box`<br>
+`#menu` -> tous les éléments avec `id=menu`
+
+### La propriété
+C'est tout ce qui est à modifier
+- Exemple:<br>
+`color` -> couleur du texte<br>
+`background-color` -> couleur de fond<br>
+`font-size` -> taille du texte<br>
+`margin` -> espace extérieur<br>
+`padding` -> espace intérieur
+
+### La valeur
+C'est par quoi la propriété sera modifier
+- Exemple:<br>
+`red`, `blue`, `#222`<br>
+`16px`, `2em`, `100%`<br>
+`center`, `bold`
