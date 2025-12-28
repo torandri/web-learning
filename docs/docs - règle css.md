@@ -26,7 +26,7 @@ Tradiction humaine:
 
 ## Les 3 parties d'une règle CSS
 ### Le sélecteur
-C'est tout ce qui est à cibles
+C'est tout ce qui est à cibler
 > [!NOTE]
 > Il y a trois (03) types de sélecteur:<br>
 > **Sélecteur de balise**<br>
