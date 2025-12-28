@@ -8,12 +8,11 @@
 	}
 	```
 
-	> [!WARNING]
-	> **Règles importantes**
-	> - Toujours `:` entre propriété et valeur
-	> - Toujours `;` à la fin
-	> - Les accolades `{}` sont obligatoires
-
+	> ⚠️ **WARNING**
+	> ***Règles importantes:***<br>
+	> Toujours `:` entre propriété et valeur<br>
+	> Toujours `;` à la fin<br>
+	> Les accolades `{}` sont obligatoires
 
 	Exemple simple
 	```css
@@ -27,12 +26,12 @@
 2. ***Les 3 parties d'une règle CSS***
 	#### Le sélecteur
 	C'est tout ce qui est à cibles
-	> [!NOTE]
+	> ℹ️ **NOTE**
 	> Il y a tois (03) types de sélecteur:<br>
 	> **Sélecteur de balise**<br>
 	> **Sélecteur de classe**<br>
 	> **Sélecteur d'ID**<br>
-	> [!TIP]
+	> 💡 **TIP**
 	> Ces sélecteurs peuvent être combinés mais certains sont prioritaire que d'autres,<br>
 	> **ID**<br>
 	> **Classe**<br>
