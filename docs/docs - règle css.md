@@ -7,7 +7,14 @@
 		propriété: valeur;
 	}
 	```
-	<br>Exemple simple
+
+	> [!WARNING]
+	> ***Règles importantes:***
+	> Toujours `:` entre propriété et valeur
+	> Toujours `;` à la fin
+	> Les accolades `{}` sont obligatoires
+
+	Exemple simple
 	```css
 	p {
 		color: red;
@@ -19,6 +26,17 @@
 2. ***Les 3 parties d'une règle CSS***
 	#### Le sélecteur
 	C'est tout ce qui est à cibles
+	> [!NOTE]
+	> Il y a tois (03) types de sélecteur:
+	> **Sélecteur de balise**
+	> **Sélecteur de classe**
+	> **Sélecteur d'ID**
+	> [!TIP]
+	> Ces sélecteurs peuvent être combinés mais certains sont prioritaire que d'autres,
+	> **ID**
+	> **Classe**
+	> **Balise**
+
 	- Exemple:<br>
 	`p` -> toutes les balises `<p>`<br>
 	`h1` -> tous les titres `<h1>`<br>
