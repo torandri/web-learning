@@ -2,13 +2,13 @@
     <p>Une règle CSS sert à dire au navigateur:
     `sur quel élément HTML appliquer quel style`
     <br>Une règle CSS est composée de 3 parties:
-    ```css
+    ```html
     sélecteur {
         propriété: valeur;
     }
     ```
     <br>Exemple simple
-    ```css
+    ```html
     p {
         color: red;
     }
