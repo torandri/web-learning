@@ -19,7 +19,7 @@
 2. ***Les 3 parties d'une règle CSS***
 	#### Le sélecteur
 	<br>C'est tout ce qui est à cibles
-	- Exemple:
+	- Exemple:<br>
 	`p` -> toutes les balises `<p>`<br>
 	`h1` -> tous les titres `<h1>`<br>
 	`.box` -> tous les éléments avec `class=box`<br>
@@ -27,7 +27,7 @@
 
 	#### La propriété
 	<br>C'est tout ce qui est à modifier
-	- Exemple
+	- Exemple:<br>
 	`color` -> couleur du texte<br>
 	`background-color` -> couleur de fond<br>
 	`font-size` -> taille du texte<br>
@@ -36,7 +36,7 @@
 
 	#### La valeur
 	<br>C'est par quoi la propriété sera modifier
-	- Exemple
+	- Exemple:<br>
 	`red`, `blue`, `#222`<br>
 	`16px`, `2em`, `100%`<br>
 	`center`, `bold`
