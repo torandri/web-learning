@@ -9,9 +9,9 @@
 	```
 
 	> [!WARNING]
-	> ***Règles importantes:***
-	> Toujours `:` entre propriété et valeur
-	> Toujours `;` à la fin
+	> ***Règles importantes:***<br>
+	> Toujours `:` entre propriété et valeur<br>
+	> Toujours `;` à la fin<br>
 	> Les accolades `{}` sont obligatoires
 
 	Exemple simple
@@ -27,14 +27,14 @@
 	#### Le sélecteur
 	C'est tout ce qui est à cibles
 	> [!NOTE]
-	> Il y a tois (03) types de sélecteur:
-	> **Sélecteur de balise**
-	> **Sélecteur de classe**
-	> **Sélecteur d'ID**
+	> Il y a tois (03) types de sélecteur:<br>
+	> **Sélecteur de balise**<br>
+	> **Sélecteur de classe**<br>
+	> **Sélecteur d'ID**<br>
 	> [!TIP]
-	> Ces sélecteurs peuvent être combinés mais certains sont prioritaire que d'autres,
-	> **ID**
-	> **Classe**
+	> Ces sélecteurs peuvent être combinés mais certains sont prioritaire que d'autres,<br>
+	> **ID**<br>
+	> **Classe**<br>
 	> **Balise**
 
 	- Exemple:<br>
