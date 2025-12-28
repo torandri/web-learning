@@ -9,10 +9,11 @@
 	```
 
 	> [!WARNING]
-	> ***Règles importantes:***<br>
-	> Toujours `:` entre propriété et valeur<br>
-	> Toujours `;` à la fin<br>
-	> Les accolades `{}` sont obligatoires
+	> **Règles importantes**
+	> - Toujours `:` entre propriété et valeur
+	> - Toujours `;` à la fin
+	> - Les accolades `{}` sont obligatoires
+
 
 	Exemple simple
 	```css
