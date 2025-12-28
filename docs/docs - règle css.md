@@ -1,5 +1,5 @@
 1. ***Qu'est-ce qu'une règle CSS ?***
-    <p>Une règle CSS sert à dire au navigateur:
+    Une règle CSS sert à dire au navigateur:
     `sur quel élément HTML appliquer quel style`
     <br>Une règle CSS est composée de 3 parties:
     ```html
@@ -14,7 +14,7 @@
     }
     ```
     <br>Tradiction humaine:
-    `Tous les <p> auront un texte rouge`</p>
+    `Tous les <p> auront un texte rouge`
 
 2. ***Les 3 parties d'une règle CSS***
     #### Le sélecteur
