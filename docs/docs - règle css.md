@@ -8,7 +8,7 @@
 	}
 	```
 
-	> ⚠️ **WARNING**
+	> ⚠️ **WARNING**<br>
 	> ***Règles importantes:***<br>
 	> Toujours `:` entre propriété et valeur<br>
 	> Toujours `;` à la fin<br>
@@ -26,12 +26,12 @@
 2. ***Les 3 parties d'une règle CSS***
 	#### Le sélecteur
 	C'est tout ce qui est à cibles
-	> ℹ️ **NOTE**
+	> ℹ️ **NOTE**<br>
 	> Il y a tois (03) types de sélecteur:<br>
 	> **Sélecteur de balise**<br>
 	> **Sélecteur de classe**<br>
 	> **Sélecteur d'ID**<br>
-	> 💡 **TIP**
+	> 💡 **TIP**<br>
 	> Ces sélecteurs peuvent être combinés mais certains sont prioritaire que d'autres,<br>
 	> **ID**<br>
 	> **Classe**<br>
