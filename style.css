@@ -28,3 +28,36 @@ footer {
 	padding: 15px;
 	text-align: center;
 }
+
+h1 {
+	font-size: 150%; /* plus grande que le reste */
+	text-align: center; /* centré */
+	margin-bottom: 30px; /* avec un espace en bas */
+}
+
+h2 {
+	font-size: 125%; /* plus petit que le h1 */
+	color: aquamarine; /* avoir une couleur différente du texte normal */
+}
+
+p {
+	max-width: 75ch; /* avec une largeur maximale */
+	margin: 0 auto; /* être bien espacés vertivalement */
+}
+
+ol, ul {
+	padding-left: 50px; /* être légèrement décalées vers la droite */
+}
+
+li {
+	margin-bottom: 5px; /* avoir plus d'espace entre les items */
+}
+
+footer a {
+	text-decoration: none; /* ne doit pas être souligné */
+}
+
+footer a:hover {
+	color: aquamarine; /* doit changer de couleur au survol */
+	text-decoration: underline;
+}
